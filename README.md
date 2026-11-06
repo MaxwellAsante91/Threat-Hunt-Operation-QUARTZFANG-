@@ -167,7 +167,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 1: Vulnerable endpoint](images/flag01-vulnerable-endpoint.png)
+![Flag 1: Vulnerable endpoint](flag01-vulnerable-endpoint.png)
 
 ---
 
@@ -191,7 +191,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 2: The self-correct](images/flag02-self-correct.png)
+![Flag 2: The self-correct](flag02-self-correct.png)
 
 ---
 
@@ -214,7 +214,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 3: Exploit source](images/flag03-exploit-source.png)
+![Flag 3: Exploit source](flag03-exploit-source.png)
 
 ---
 
@@ -236,7 +236,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 4: Exploitation chain](images/flag04-exploitation-chain.png)
+![Flag 4: Exploitation chain](flag04-exploitation-chain.png)
 
 ---
 
@@ -260,7 +260,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 5: Configuration file and process tree](images/flag05-config-file-process-tree.png)
+![Flag 5: Configuration file and process tree](flag05-config-file-process-tree.png)
 
 ---
 
@@ -281,7 +281,7 @@ LLMAgentLogs_CL
 
 **Evidence:**
 
-![Flag 6: Database credential](images/flag06-database-credential.png)
+![Flag 6: Database credential](flag06-database-credential.png)
 
 ---
 
@@ -303,7 +303,7 @@ LLMAgentLogs_CL
 
 **Evidence:**
 
-![Flag 7: Registry credential](images/flag07-registry-credential.png)
+![Flag 7: Registry credential](flag07-registry-credential.png)
 
 ---
 
@@ -325,7 +325,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 8: Visibility gap](images/flag08-visibility-gap.png)
+![Flag 8: Visibility gap](flag08-visibility-gap.png)
 
 ---
 
@@ -353,7 +353,7 @@ Syslog
 
 **Evidence:**
 
-![Flag 9: Database query discrimination](images/flag09-db-query-discrimination.png)
+![Flag 9: Database query discrimination](flag09-db-query-discrimination.png)
 
 ---
 
@@ -378,7 +378,7 @@ Syslog
 
 **Evidence:**
 
-![Flag 10: Queried tables](images/flag10-queried-tables.png)
+![Flag 10: Queried tables](flag10-queried-tables.png)
 
 ---
 
@@ -401,7 +401,7 @@ ContainerRegistryLog_CL
 
 **Evidence:**
 
-![Flag 11: Registry enumeration](images/flag11-registry-enumeration.png)
+![Flag 11: Registry enumeration](flag11-registry-enumeration.png)
 
 ---
 
@@ -424,7 +424,7 @@ Syslog
 
 **Evidence:**
 
-![Flag 12: Admin API response](images/flag12-admin-api-response.png)
+![Flag 12: Admin API response](flag12-admin-api-response.png)
 
 ---
 
@@ -448,7 +448,7 @@ LLMAgentLogs_CL
 
 **Evidence:**
 
-![Flag 13: Secrets store hallucination](images/flag13-secrets-hallucination.png)
+![Flag 13: Secrets store hallucination](flag13-secrets-hallucination.png)
 
 ---
 
@@ -468,7 +468,7 @@ LLMAgentLogs_CL
 | order by TimeGenerated asc
 ```
 
-![Flag 14 Agent Claim](images/flag14a-agent-claim.png)
+![Flag 14 Agent Claim](flag14a-agent-claim.png)
 
 **KQL Query 2 (Registry Evidence):**
 
@@ -481,7 +481,7 @@ ContainerRegistryLog_CL
 | order by TimeGenerated asc
 ```
 
-![Flag 14 Registry Evidence](images/flag14b-registry-evidence.png)
+![Flag 14 Registry Evidence](flag14b-registry-evidence.png)
 
 ---
 
@@ -504,7 +504,7 @@ LLMAgentLogs_CL
 
 **Evidence:**
 
-![Flag 15: Hallucination as autonomy limitation](images/flag15-autonomy-limitation.png)
+![Flag 15: Hallucination as autonomy limitation](flag15-autonomy-limitation.png)
 
 ---
 
@@ -526,7 +526,7 @@ DeviceNetworkEvents_CL
 | project Timestamp, RemoteIP, RemotePort, InitiatingProcessFileName, InitiatingProcessAccountName, InitiatingProcessId
 ```
 
-![Flag 16 Network Evidence](images/flag16a-network-evidence.png)
+![Flag 16 Network Evidence](flag16a-network-evidence.png)
 
 **KQL Query 2 (File Evidence):**
 
@@ -539,7 +539,7 @@ DeviceFileEvents_CL
 | order by Timestamp asc
 ```
 
-![Flag 16 File Evidence](images/flag16b-file-evidence.png)
+![Flag 16 File Evidence](flag16b-file-evidence.png)
 
 ---
 
@@ -562,7 +562,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 17: Staging tools](images/flag17-staging-tools.png)
+![Flag 17: Staging tools](flag17-staging-tools.png)
 
 ---
 
@@ -585,7 +585,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 18: Persistence mechanism](images/flag18-persistence.png)
+![Flag 18: Persistence mechanism](flag18-persistence.png)
 
 ---
 
@@ -609,7 +609,7 @@ DeviceNetworkEvents_CL
 
 **Evidence:**
 
-![Flag 19: Exfil vs legitimate HTTPS](images/flag19-exfil-vs-legit-https.png)
+![Flag 19: Exfil vs legitimate HTTPS](flag19-exfil-vs-legit-https.png)
 
 ---
 
@@ -632,7 +632,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 20: Scanner Ips](images/flag20-scanner-ips.png)
+![Flag 20: Scanner Ips](flag20-scanner-ips.png)
 
 ---
 
@@ -653,7 +653,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 21: Recon vs Nessus discrimination](images/flag21-recon-vs-nessus.png)
+![Flag 21: Recon vs Nessus discrimination](flag21-recon-vs-nessus.png)
 
 ---
 
@@ -680,7 +680,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 22: Timing signature](images/flag22-timing-signature.png)
+![Flag 22: Timing signature](flag22-timing-signature.png)
 
 ---
 
@@ -704,7 +704,7 @@ LLMAgentLogs_CL
 
 **Evidence:**
 
-![Flag 23: Operator decision gates](images/flag23-operator-gates.png)
+![Flag 23: Operator decision gates](flag23-operator-gates.png)
 
 ---
 
@@ -725,7 +725,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 24: Autonomy placement](images/flag24-25-autonomy-placement.png)
+![Flag 24: Autonomy placement](flag24-25-autonomy-placement.png)
 
 ---
 
@@ -746,7 +746,7 @@ PortalAccessLog_CL
 
 **Evidence:**
 
-![Flag 25: Novel ATT&CK technique](images/flag24-25-autonomy-placement.png)
+![Flag 25: Novel ATT&CK technique](flag24-25-autonomy-placement.png)
 
 ---
 
@@ -770,7 +770,7 @@ Syslog
 
 **Evidence:**
 
-![Flag 26: Credential reuse across services (Real or Noise)](images/flag26-credential-reuse.png)
+![Flag 26: Credential reuse across services (Real or Noise)](flag26-credential-reuse.png)
 
 ---
 
@@ -792,7 +792,7 @@ DeviceProcessEvents_CL
 
 **Evidence:**
 
-![Flag 27: pg_dump disconfirmation](images/flag27-pgdump.png)
+![Flag 27: pg_dump disconfirmation](flag27-pgdump.png)
 
 ---
 
@@ -814,7 +814,7 @@ Syslog
 
 **Evidence:**
 
-![Flag 28: Connection spike dead end](images/flag28-connection-spike.png)
+![Flag 28: Connection spike dead end](flag28-connection-spike.png)
 
 ---
 
